@@ -1,0 +1,190 @@
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?event,ticket');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+h1 {
+    color: #ffcc00; /* Golden color */
+}
+
+.navbar {
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+h1 {
+    color: #343a40; /* Dark color for headings */
+}
+
+.container {
+    max-width: 600px; /* Limit the width of the container */
+    margin: auto; /* Center the container */
+}
+
+footer {
+    position: fixed; /* Keep the footer at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center; /* Center text in the footer */
+    padding: 10px 0; /* Padding for footer */
+}
+
+.btn {
+    border-radius: 0; /* Remove rounded corners */
+    font-weight: bold; /* Make button text bold */
+}
+
+.alert {
+    margin-top: 20px; /* Space above alert messages */
+}
+
+.form-control {
+    border-radius: 0; /* Remove rounded corners from input fields */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+.login-container, .register-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+
+.login-container:hover, .register-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    color: #ffcc00; /* Golden color */
+}
+
+.btn-primary, .btn-success {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.green {
+    background-color: #34C759;
+    color: #fff;
+}
+
+.button.black {
+    background-color: #333;
+    color: #fff;
+}
+
+.bracket-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bracket Table */
+.bracket-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bracket-table th, .bracket-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.bracket-table th {
+    background-color: #f0f0f0;
+}
+
+/* Matchup Row */
+.matchup-row {
+    background-color: #fff;
+}
+
+.matchup-row:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+/* Team Names */
+.team-name {
+    font-weight: bold;
+}
+
+/* Score */
+.score {
+    font-size: 18px;
+    font-weight: bold;
+    color: #337ab7;
+}

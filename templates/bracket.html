@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracket Website</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        /* Bracket Container */
+        .bracket-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Bracket Table */
+        .bracket-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        .bracket-table th, .bracket-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .bracket-table th {
+            background-color: #f0f0f0;
+        }
+        
+        /* Matchup Row */
+        .matchup-row {
+            background-color: #fff;
+        }
+        
+        .matchup-row:nth-child(even) {
+            background-color: #f7f7f7;
+        }
+        
+        /* Team Names */
+        .team-name {
+            font-weight: bold;
+        }
+        
+        /* Score */
+        .score {
+            font-size: 18px;
+            font-weight: bold;
+            color: #337ab7;
+        }
+    </style>
+</head>
+<body>
+    <div class="bracket-container">
+        <h1>Tournament Bracket</h1>
+        <table class="bracket-table">
+            <tr>
+                <th>Matchup</th>
+                <th>Team 1</th>
+                <th>Team 2</th>
+                <th>Score</th>
+            </tr>
+            <tr class="matchup-row">
+                <td>1</td>
+                <td><span class="team-name">Team A</span></td>
+                <td><span class="team-name">Team B</span></td>
+                <td><span class="score">2-1</span></td>
+            </tr>
+            <tr class="matchup-row">
+                <td>2</td>
+                <td><span class="team-name">Team C</span></td>
+                <td><span class="team-name">Team D</span></td>
+                <td><span class="score">1-2</span></td>
+            </tr>
+            <!-- Add more matchup rows here -->
+        </table>
+    </div>
+</body>
+</html>
