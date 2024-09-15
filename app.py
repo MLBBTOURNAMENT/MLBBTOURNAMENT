@@ -3,17 +3,17 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy.exc import IntegrityError
-import signal
+# import signal
 
-# def sigterm_handler(*args):
-#     sys.exit(0)
+# # def sigterm_handler(*args):
+# #     sys.exit(0)
 
 
-def sigterm_handler(signum, frame):
-    # Handle SIGTERM signal
-    print("Received SIGTERM signal")
+# def sigterm_handler(signum, frame):
+#     # Handle SIGTERM signal
+#     print("Received SIGTERM signal")
 
-signal.signal(signal.SIGTERM, sigterm_handler)
+# signal.signal(signal.SIGTERM, sigterm_handler)
 
 
 app = Flask(__name__)
