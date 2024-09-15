@@ -5,8 +5,13 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy.exc import IntegrityError
 import signal
 
-def sigterm_handler(*args):
-    sys.exit(0)
+# def sigterm_handler(*args):
+#     sys.exit(0)
+
+
+def sigterm_handler(signum, frame):
+    # Handle SIGTERM signal
+    print("Received SIGTERM signal")
 
 signal.signal(signal.SIGTERM, sigterm_handler)
 
